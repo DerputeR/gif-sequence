@@ -1,3 +1,3 @@
 # GIF Sequence
-> Continue <
+\> Continue \<
 WIP🔨👷‍♂️

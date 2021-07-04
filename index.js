@@ -1,3 +1,5 @@
+// Adopted from Vincent Orback's scroll loop example on CodePen (see license.txt on GitHub source page)
+
 var doc = window.document;
 var context = doc.querySelector(".js-loopContainer");
 var items = doc.querySelectorAll(".js-loopItem");

@@ -3,26 +3,22 @@ body {
   min-height: 100%;
   box-sizing: border-box;
   margin: 0;
-  /* background-color: rgb(12, 12, 12); */
   background-color: black;
   overflow: hidden;
 }
 
-.Loop {
-  /* position: relative; */
-  margin: auto;
-  height: 100vh;
-  /* height: 80%; */
-  width: 100%;
-  /* max-width: 600px;  */
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
-}
-
-body {
-  background-image: url("./blurs/background-noblur-vignette-dark.png");
+/* body {
+  background-image: url("./blurs/background-noblur-vignette-dark.jpg");
   background-size: cover;
   background-position: 50%;
+} */
+
+.Loop {
+  margin: auto;
+  height: 100vh;
+  width: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 section {
@@ -33,20 +29,20 @@ section {
   margin-right: auto;
   padding-top: 80px;
   padding-bottom: 80px;
-  max-width: 600px;
-  /* object-fit: contain; */
+  /* max-width: 600px; */
+  max-width: 100vmin;
 }
 
 img.gif {
   width: 80%;
   height: auto;
-  max-width: 600px; 
+  /* max-width: 600px;  */
+  max-width: 100vmin;
 }
 
 .p {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   overflow: hidden;
   height: 100vh;
   width: 100vw;
@@ -58,11 +54,12 @@ img.gif {
 .p img {
   position: absolute;
   display: block;
-  max-width: 800px; 
   width: 150vw;
   height: 50px;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
+  /* max-width: 800px;  */
+  max-width: 130vmin;
 }
 
 .p img.orange {

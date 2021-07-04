@@ -3,6 +3,7 @@ body {
   min-height: 100%;
   box-sizing: border-box;
   margin: 0;
+  /* background-color: rgb(12, 12, 12); */
   background-color: black;
   overflow: hidden;
 }
@@ -19,8 +20,9 @@ body {
 }
 
 body {
-  /* background-image: url("./blurs/background-noblur-vignette.png"); */
+  background-image: url("./blurs/background-noblur-vignette-dark.png");
   background-size: cover;
+  background-position: 50%;
 }
 
 section {

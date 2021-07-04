@@ -80,7 +80,7 @@ function onLoad() {
   }, false);
 
   window.onLoad = onLoad;
-  setTimeout(reCalc, 50);
 }
 
 onLoad();
+setTimeout(reCalc, 500);

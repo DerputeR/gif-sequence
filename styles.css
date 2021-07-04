@@ -1,20 +1,26 @@
 html,
 body {
-  height: 100%;
+  min-height: 100%;
   box-sizing: border-box;
   margin: 0;
-  background-color: whitesmoke;
+  background-color: black;
   overflow: hidden;
 }
 
 .Loop {
   /* position: relative; */
-  /* margin: auto; */
-  height: 100%;
+  margin: auto;
+  height: 100vh;
   /* height: 80%; */
-  /* width: 80%; */
+  width: 100%;
+  /* max-width: 600px;  */
   overflow: auto;
   -webkit-overflow-scrolling: touch;
+}
+
+body {
+  /* background-image: url("./blurs/background-noblur-vignette.png"); */
+  background-size: cover;
 }
 
 section {
@@ -25,7 +31,7 @@ section {
   margin-right: auto;
   padding-top: 80px;
   padding-bottom: 80px;
-  /* max-width: 600px; */
+  max-width: 600px;
   /* object-fit: contain; */
 }
 
@@ -33,6 +39,32 @@ img.gif {
   width: 80%;
   height: auto;
   max-width: 600px; 
+}
+
+.p {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.p img {
+  position: absolute;
+  display: block;
+  max-width: 800px; 
+  width: 150vw;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.p img.orange {
+  bottom: 0;
 }
 
 #mario64 {

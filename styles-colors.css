@@ -1,0 +1,32 @@
+.colors {
+  background-color: wheat;
+}
+
+#mario64[class~="colors"] {
+  background-color: rgb(63, 15, 13);
+}
+
+#botw.colors {
+  background-color: rgb(77, 87, 79);
+}
+
+#portal2[class~="colors"] {
+  /* background-color: rgb(80, 80, 80); */
+  background-color: rgb(78, 71, 70);
+}
+
+#minecraft.colors {
+  background-color: rgb(58, 41, 38);
+}
+
+#hl-alyx[class~="colors"] {
+  background-color: rgb(10, 11, 14);
+}
+
+#stanley.colors {
+  background-color: rgb(106, 90, 93);
+}
+
+#hl1[class~="colors"] {
+  background-color: rgb(15, 40, 16);
+}

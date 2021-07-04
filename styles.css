@@ -1,39 +1,70 @@
-html {
-    box-sizing: border-box;
-    background-image: linear-gradient(to right,#ff8a00,#da1b60);
-}
-
+html,
 body {
-    
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  background-color: whitesmoke;
+  overflow: hidden;
 }
 
-h1 {
-   font-family: "Arial";
-   font-weight: bold; 
-}
-
-main {
-    display: flex;
-
-    /* specify main axis */
-    flex-direction: column;
-
-    /* along main axis */
-    justify-content: center;
-
-    /* along cross axis */
-    align-items: center; 
+.Loop {
+  /* position: relative; */
+  margin: auto;
+  height: 80%;
+  width: 80%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 section {
-    width: 100%;
-    max-width: 600px;
-    /* object-fit: contain; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  /* max-width: 600px; */
+  /* object-fit: contain; */
 }
 
-img {
-    width: 100%;
-    height: auto;
-    max-width: 600px;
-    margin-top: 10%;
+img.gif {
+  width: 80%;
+  height: auto;
+  max-width: 600px; 
+}
+
+#mario64 {
+  background-image: url("./blurs/0.jpg");
+  background-size: cover;
+}
+
+#botw {
+  background-image: url("./blurs/1.jpg");
+  background-size: cover;
+}
+
+#portal2 {
+  background-image: url("./blurs/2.jpg");
+  background-size: cover;
+}
+
+#minecraft {
+  background-image: url("./blurs/3.jpg");
+  background-size: cover;
+}
+
+#hl-alyx {
+  background-image: url("./blurs/4.jpg");
+  background-size: cover;
+}
+
+#stanley {
+  background-image: url("./blurs/5.jpg");
+  background-size: cover;
+}
+
+#hl1 {
+  background-image: url("./blurs/6.jpg");
+  background-size: cover;
 }

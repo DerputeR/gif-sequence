@@ -84,3 +84,4 @@ function onLoad() {
 
 onLoad();
 setTimeout(reCalc, 500);
+setTimeout(reCalc, 3000);
